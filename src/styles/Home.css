@@ -25,6 +25,13 @@ html, body {
 .welcome-card:hover {
 	transform: translateY(-5px);
 }
+
+.welcome-image {
+	width: 25%;
+	height: 25%;
+	object-fit: cover;
+}
+
 .welcome-text {
     text-align: center;
     font-style: italic;

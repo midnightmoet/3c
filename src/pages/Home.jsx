@@ -1,6 +1,7 @@
 import React from 'react'
-import { Container, Typography, Button, Grid, Card, CardContent, CardMedia } from '@mui/material'
+import { Container, Typography, Card, CardContent, CardMedia } from '@mui/material'
 import '../styles/Home.css'
+import stockVectorButterfly from '../assets/stock-vector-butterfly.jpg'
 
 const Home = () => {
   return (
@@ -12,8 +13,9 @@ const Home = () => {
         <CardMedia
           component="img"
           height="300"
-          image="./assets/Champagne.png"
+          image={stockVectorButterfly}
           alt="3C Welcome Image"
+          className='welcome-image'
         />
         <CardContent>
           <Typography variant="body1" className='welcome-text'>
