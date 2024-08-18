@@ -1,0 +1,36 @@
+.services-container {
+	padding: 2rem 0;
+}
+
+.services-title {
+	margin-bottom: 2rem;
+}
+
+.services-grid {
+	margin-top: 2rem;
+}
+
+.service-item {
+	display: flex;
+}
+
+.service-card {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.service-card-title {
+	font-weight: bold;
+}
+
+.service-card-description {
+	flex-grow: 1;
+}
+
+.service-card-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+}

@@ -1,0 +1,44 @@
+/* Home.css */
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+.home-container {
+	padding: 2rem 0;
+    
+}
+
+.welcome-title {
+	text-align: center;
+    margin-bottom: 2rem;
+	color: #333;
+}
+
+.welcome-card {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out;
+}
+
+.welcome-card:hover {
+	transform: translateY(-5px);
+}
+.welcome-text {
+    text-align: center;
+    font-style: italic;
+}
+
+.card-media {
+	object-fit: cover;
+}
+
+.card-content {
+	padding: 1.5rem;
+}
+
+.explore-text {
+	color: #666;
+	font-size: 1.1rem;
+}
