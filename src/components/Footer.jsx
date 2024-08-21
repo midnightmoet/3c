@@ -38,7 +38,7 @@ const Footer = () => {
 			</div>
 			<div className="footer-copyright">
 				<small>
-					© 2023 3C - Champagne Creative Creations est. 1993. All
+					© 2023 3C - Champagne Creative Creations. All
 					rights reserved.
 				</small>
 			</div>
