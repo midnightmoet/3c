@@ -34,8 +34,8 @@ body {
 }
 
 .contact-container h2 {
-  color: var(--primary-color);
   text-align: center;
+  font-size: 1.25em;
   margin-bottom: 1.5rem;
 }
 
