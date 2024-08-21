@@ -11,7 +11,7 @@ const Services = () => {
 
   return (
     <Container maxWidth="lg" className="services-container">
-      <Typography variant="h2" component="h1" gutterBottom align="center" className="services-title">
+      <Typography variant="h4" component="h1" gutterBottom align="center" className="services-title">
         Our Services
       </Typography>
       <Grid container spacing={4} className="services-grid">
@@ -25,9 +25,11 @@ const Services = () => {
                 <Typography variant="body2" color="text.secondary" paragraph className="service-card-description">
                   {service.description}
                 </Typography>
-                <Button variant="contained" color="primary" align="center" className="service-card-button">
-                  {service.action}
-                </Button>
+                <div className='btn-container'>
+                  <Button className="service-card-button" style={{ backgroundColor: 'black', color: 'white' }}>
+                    {service.action}
+                  </Button>
+                </div>
               </CardContent>
             </Card>
           </Grid>

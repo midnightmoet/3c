@@ -3,15 +3,19 @@
 }
 
 .services-title {
-	margin-bottom: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .services-grid {
-	margin-top: 2rem;
+	margin-top: 4rem;
 }
 
 .service-item {
 	display: flex;
+	flex-direction: column;
+	height: 100%;
 }
 
 .service-card {
@@ -21,6 +25,7 @@
 }
 
 .service-card-title {
+	text-align: center;
 	font-weight: bold;
 }
 
@@ -28,9 +33,12 @@
 	flex-grow: 1;
 }
 
-.service-card-button {
+.service-card-button:hover {
+	background-color: gray;
+}
+
+.btn-container {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	margin-top: 1rem;
+	margin-top: 2rem;
 }

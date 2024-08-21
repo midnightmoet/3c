@@ -4,7 +4,7 @@ import '../styles/About.css'
 const About = () => {
   return (
     <div className="about-container">
-      <h1 className="about-title">About 3C</h1>
+      {/* <h1 className="about-title">About 3C</h1> */}
       <p className="about-intro">Welcome to my website! I'm glad you're here.</p>
       <section className="about-section">
         <h2 className="section-title">Our Mission</h2>

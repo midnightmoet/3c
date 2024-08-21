@@ -3,12 +3,12 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	overflow: auto;
+	
 }
 
 .home-container {
 	padding: 2rem 0;
-    
+    overflow-y: auto;
 }
 
 .welcome-title {
@@ -26,11 +26,6 @@ html, body {
 	transform: translateY(-5px);
 }
 
-.welcome-image {
-	width: 25%;
-	height: 25%;
-	object-fit: cover;
-}
 
 .welcome-text {
     text-align: center;
@@ -48,4 +43,24 @@ html, body {
 .explore-text {
 	color: #666;
 	font-size: 1.1rem;
+}
+
+.explore-btn {
+	display: block;
+	margin-top: 1rem;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 0.75rem 1.5rem;
+	border-radius: 5px;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.about {
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
 }

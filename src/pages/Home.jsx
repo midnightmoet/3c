@@ -1,30 +1,28 @@
-import React from 'react'
-import { Container, Typography, Card, CardContent, CardMedia } from '@mui/material'
-import '../styles/Home.css'
-import stockVectorButterfly from '../assets/stock-vector-butterfly.jpg'
+import React from "react";
+import {
+	Container,
+	Typography,
+	Card,
+	CardContent,
+} from "@mui/material";
+import "../styles/Home.css";
 
 const Home = () => {
-  return (
-    <Container maxWidth="lg" className='home-container'>
-      <Typography variant="h4" gutterBottom className='welcome-title'>
-        Welcome to 3C
-      </Typography>
-      <Card>
-        <CardMedia
-          component="img"
-          height="300"
-          image={stockVectorButterfly}
-          alt="3C Welcome Image"
-          className='welcome-image'
-        />
-        <CardContent>
-          <Typography variant="body1" className='welcome-text'>
-            Explore our services and products.
-          </Typography>
-        </CardContent>
-      </Card>
-    </Container>
-  )
-}
+	return (
+		<Container maxWidth="lg" className="home-container">
+			<Card>
+				<CardContent>
+					<Typography variant="h5" component="h2" className="about" gutterBottom>
+						About Us
+					</Typography>
+					<Typography variant="body1">
+						We are a company dedicated to providing high-quality services and products.
+						Our mission is to make a positive impact on the world through innovation and sustainability.
+					</Typography>
+				</CardContent>
+			</Card>
+		</Container>
+	);
+};
 
-export default Home
+export default Home;
