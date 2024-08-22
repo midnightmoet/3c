@@ -1,6 +1,6 @@
 # My Project
 
-This is a brief description of my project.
+Personal business project with evolving features and capabilities.
 
 ## Technologies Used
 
@@ -18,18 +18,21 @@ This is a brief description of my project.
 - Jest (for testing)
 - Docker
 - AWS (for deployment)
+- Vit (`npm create vite@latest`) (https://vitejs.dev/guide/)
 
 ## Getting Started
 
-Instructions on how to set up and run the project locally...
+1. Clone project to local IDE
+2. Run `npm i` to install packages
+3. Run `npm run dev` to run the project on local host
 
 ## Features
 
-List of key features...
+Multipage website with basic abilities to maneuver through the website.
 
 ## Contributing
 
-Guidelines for contributing to the project...
+Contributions are welcomed with an explanatory of changes being requested / suggested.
 
 ## License
 
