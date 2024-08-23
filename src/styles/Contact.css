@@ -1,17 +1,7 @@
-:root {
-  --primary-color: black;
-  --secondary-color: #2c3e50;
-  --accent-color: #e74c3c;
-  --background-color: #ecf0f1;
-  --text-color: #34495e;
-  --shadow-color: rgba(0, 0, 0, 0.1);
-  --transition: all 0.3s ease-in-out;
-  --bold-font: 600;
-}
 
 body {
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: whitesmoke;
+  color: black;
   font-family: 'Arial', sans-serif;
   min-height: 100vh;
   margin: 0;
@@ -27,7 +17,7 @@ body {
   padding: 2rem;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 15px 15px var(--shadow-color);
+  box-shadow: 0 15px 15px gray;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -45,14 +35,12 @@ body {
   padding: 2rem;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 5px 15px var(--shadow-color);
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 
 .contact-form-container h2 {
-  color: var(--primary-color);
   text-align: center;
   margin-bottom: 1.5rem;
 }
@@ -60,8 +48,8 @@ body {
 .contact-form-container label {
   display: block;
   margin-bottom: 0.5rem;
-  color: var(--secondary-color);
-  font-weight: var(--bold-font);
+  color: #333;
+  font-weight: bold;
 }
 
 .contact-form-container .input-field {
@@ -71,7 +59,7 @@ body {
   border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 1rem;
-  transition: var(--transition);
+  transition: gray 0.3s ease;
 }
 
 .contact-form-container .input-field:focus {
@@ -91,14 +79,13 @@ body {
 .submit-btn {
   width: 100%;
   padding: 1rem;
-  background-color: var(--primary-color);
+  background-color: black;
   color: #fff;
   border: none;
   border-radius: 5px;
   font-size: 1rem;
-  font-weight: var(--bold-font);
+  font-weight: bold;
   cursor: pointer;
-  transition: var(--transition);
 }
 
 .submit-btn:hover {
