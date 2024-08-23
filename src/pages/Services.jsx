@@ -4,15 +4,15 @@ import '../styles/Services.css'
 
 const Services = () => {
   const services = [
-    { title: 'Handmade Items', description: 'Items crafted with love and care', action: 'Shop Now' },
-    { title: 'Tarot Card Reading', description: 'Tarot readings for guidance and insight', action: 'Book Reading' },
-    { title: 'Web Design', description: 'Custom web design and development', action: 'Get Quote' },
+    { title: 'Handmade Items', description: 'Unique, custom-crafted pieces tailored to your specifications. Each item is created with attention to detail and built to stand the test of time.', action: 'Shop Now' },
+    { title: 'Tarot Card Reading', description: 'Insightful tarot sessions offering guidance and clarity. Let me help you uncover hidden truths and illuminate your path forward.', action: 'Book Reading' },
+    // { title: 'Web Design', description: 'Custom web design and development', action: 'Get Quote' },
   ]
 
   return (
     <Container maxWidth="lg" className="services-container">
-      <Typography variant="h4" component="h1" gutterBottom align="center" className="services-title">
-        Our Services
+      <Typography variant="h5" component="h3" gutterBottom align="center" fontStyle="italic" className="services-title">
+        Services Available
       </Typography>
       <Grid container spacing={4} className="services-grid">
         {services.map((service) => (
@@ -26,7 +26,7 @@ const Services = () => {
                   {service.description}
                 </Typography>
                 <div className='btn-container'>
-                  <Button className="service-card-button" style={{ backgroundColor: 'black', color: 'white' }}>
+                  <Button className="service-card-button" style={{ color: 'white' }}>
                     {service.action}
                   </Button>
                 </div>

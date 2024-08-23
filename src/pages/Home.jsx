@@ -28,8 +28,8 @@ const Home = () => {
 						src={champagneImage}
 					/>
 					<Typography variant="body1">
-						We are a company dedicated to providing high-quality services and products.
-						Our mission is to make a positive impact on the world through innovation and sustainability.
+						<p>My journey into entrepreneurship began with a passion for sharing my craft with the world. After years of contemplation, I finally took the leap to establish my own business. As an empath, I possess a unique perspective on life, which has led me to integrate tarot into my repertoire of abilities, allowing me to offer a distinctive service.</p>
+						<p>Whether you're in search of a thoughtful gift or seeking guidance about what lies ahead, I'm here to assist you on your journey.</p>
 					</Typography>
 				</CardContent>
 			</Card>

@@ -1,4 +1,7 @@
 .services-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	padding: 2rem 0;
 }
 
@@ -6,22 +9,30 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 2rem 0;
 }
 
 .services-grid {
-	margin-top: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .service-item {
 	display: flex;
 	flex-direction: column;
-	height: 100%;
+	align-items: center;
+	margin: 0.5rem;
+	padding: 1rem;
 }
 
 .service-card {
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	height: 100%;
+	width: 100%;
 }
 
 .service-card-title {
@@ -31,6 +42,7 @@
 
 .service-card-description {
 	flex-grow: 1;
+	text-align: center;
 }
 
 .service-card-button:hover {
@@ -40,5 +52,11 @@
 .btn-container {
 	display: flex;
 	justify-content: center;
-	margin-top: 2rem;
+	align-items: center;
+	color: white;
+	background-color: black;
+	margin: auto 20px;
+	padding: 10px 20;
+	border-radius: 10px;
 }
+
