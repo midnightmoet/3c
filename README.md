@@ -1,24 +1,20 @@
 # My Project
 
-Personal business project with evolving features and capabilities.
+Personal business project with evolving features and capabilities. Will be deploying once completed and launch will be adveretised on social media.
 
 ## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript (ES6+)
-- React.js
+- React.js (via [Vite](https://vitejs.dev/))
 - Node.js
 - Express.js
-- MongoDB
+- MongoDB (not yet incorporated)
 - Git
 - npm
-- Webpack
-- Babel
-- Jest (for testing)
-- Docker
-- AWS (for deployment)
 - Vit (`npm create vite@latest`) (https://vitejs.dev/guide/)
+- [Formspree](https://formspree.io/) - used for contact form
 
 ## Getting Started
 
@@ -28,7 +24,7 @@ Personal business project with evolving features and capabilities.
 
 ## Features
 
-Multipage website with basic abilities to maneuver through the website.
+SPA page with ability to contain all needed for functionality of the business.
 
 ## Contributing
 
