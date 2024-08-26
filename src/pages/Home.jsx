@@ -20,6 +20,9 @@ const Home = () => {
 							<a href="#services">Services</a>
 						</li>
 						<li>
+							<a href="#gallery">Gallery</a>
+						</li>
+						<li>
 							<a href="#contact">Contact</a>
 						</li>
 					</ul>
@@ -82,7 +85,7 @@ const Home = () => {
 									</p>
 									<div className="btn-container">
 										<button className="service-card-button">
-											Submit
+											Request A Quote
 										</button>
 									</div>
 								</div>
@@ -99,7 +102,7 @@ const Home = () => {
 									</p>
 									<div className="btn-container">
 										<button className="service-card-button">
-											Submit
+											Receive a Reading
 										</button>
 									</div>
 								</div>
@@ -109,8 +112,23 @@ const Home = () => {
 				</section>
 			</section>
 
-			{/* <section className="projects" id="projects">
-      </section> */}
+			{/* GALLERY SECTION */}
+			<section className="gallery" id="gallery">
+				<h2>Gallery</h2>
+				<div className="gallery-container">
+					{/* Add your gallery items here */}
+					<div className="gallery-item">
+						<img src="https://picsum.photos/id/237/300/200" alt="Gallery Item 1" />
+					</div>
+					<div className="gallery-item">
+						<img src="https://picsum.photos/id/237/300/200" alt="Gallery Item 2" />
+					</div>
+					<div className="gallery-item">
+						<img src="https://picsum.photos/id/237/300/200" alt="Gallery Item 3" />
+					</div>
+					{/* Add more gallery items as needed */}
+				</div>
+			</section>
 
 {/* CONTACT FORM SECTION */}
 			<section className="contact" id="contact">
