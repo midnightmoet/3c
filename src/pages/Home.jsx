@@ -26,6 +26,7 @@ const Home = () => {
 				</nav>
 			</header>
 
+{/* ABOUT SECTION */}
 			<section className="hero" id="about">
 				<div className="about-container">
 					{/* <h1 className="about-title">About 3C</h1> */}
@@ -63,7 +64,7 @@ const Home = () => {
         <h2></h2>
         <p></p>
       </section> */}
-
+{/* SERVICES SECTION */}
 			<section className="services" id="services">
 				<section className="services-container">
 					<div className="services-title">
@@ -111,12 +112,13 @@ const Home = () => {
 			{/* <section className="projects" id="projects">
       </section> */}
 
+{/* CONTACT FORM SECTION */}
 			<section className="contact" id="contact">
 				<h2>Get In Touch With Me</h2>
 				<div className="contact-form-container">
 					<div className="contact-form">
 						<form
-							action="https://formspree.io/f/mdovjavr"
+							action="https://formspree.io/f/xpwabzgz"
 							method="POST"
 						>
 							<div className="form-control">
@@ -137,6 +139,17 @@ const Home = () => {
 									id="email"
 									name="sender-email"
 									placeholder="Enter Your Email"
+									className="input-field"
+									required
+								/>
+							</div>
+							<div className="form-control">
+								<label htmlFor="subject">Subject</label>
+								<input
+									type="text"
+									id="subject"
+									name="subject"
+									placeholder="Enter Your Subject"
 									className="input-field"
 									required
 								/>
